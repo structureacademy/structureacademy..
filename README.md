@@ -142,7 +142,7 @@
       if (!confirm("Do you want to continue to access our educational content?")) return;
 
       try {
-        if (typeof fbq === 'function') fbq('track', 'Lead');
+        if (typeof fbq === 'function') fbq('track', 'Subscribe');
       } catch (e) {}
 
       const finalLink = decodeBase64(secretLink);
